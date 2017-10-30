@@ -13,6 +13,7 @@ This application has a `PillService` which returns a simple `Pill` model.  This 
 1) Set environment variable `PILLSERVICE` to: `RedPillServiceImpl` or `BluePillServiceImpl` **Not Required**
 2) From project root, build using `mvn package`
 3) Run using `java -jar target/autowire-specified-bean-0.0.1-SNAPSHOT.jar`
+4) Go to `http://localhost:8080`
 
 ## Vagrant
 

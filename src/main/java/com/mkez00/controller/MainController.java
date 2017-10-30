@@ -18,7 +18,7 @@ public class MainController {
     @Autowired
     PillService pillService;
 
-    @RequestMapping(method = RequestMethod.GET, consumes="application/json",produces = "application/json")
+    @RequestMapping(method = RequestMethod.GET ,produces = "application/json")
     public Pill main(){
         return pillService.getPill();
     }
