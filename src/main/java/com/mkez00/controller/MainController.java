@@ -1,6 +1,5 @@
 package com.mkez00.controller;
 
-import com.mkez00.helper.ApplicationHelper;
 import com.mkez00.model.Pill;
 import com.mkez00.service.PillService;
 import org.springframework.beans.factory.annotation.Autowired;
