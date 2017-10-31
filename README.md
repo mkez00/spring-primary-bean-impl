@@ -5,6 +5,7 @@ Sometimes it is necessary to have multiple implementations of the same interface
 This application has a `PillService` which returns a simple `Pill` model.  This model can be accessed at the base URL of the deployed application using a HTTP GET (`http://localhost:8080`).  The default implementation is the `BluePillServiceImpl`.  To override, set environment variable `pillService` to: `RedPillServiceImpl` or `BluePillServiceImpl`.
 
 # Example
+All examples listed below will override the default implementation and use the `RedPillServiceImpl` to demonstrate functionality.  To use the default (`BluePillServiceImpl`), either remove the setting of the environment/system variable (since `BluePillServiceImpl` is the default implementation), or explicitly set the `pillService` variable to `BluePillServiceImpl`.
 
 ## Local
 1) From project root, build using `mvn package`
