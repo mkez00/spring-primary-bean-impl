@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 @Component
 public class BeanDefinitionRegistryPostProcessorImpl implements BeanDefinitionRegistryPostProcessor {
 
-    private static String PILL_SERVICE_ENV_VARIABLE = "PILLSERVICE";
+    private static String PILL_SERVICE_ENV_VARIABLE = "pillService";
     private static String PILL_SERVICE_DEFAULT_IMPL = "BluePillServiceImpl";
 
     @Override
