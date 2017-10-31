@@ -1,6 +1,3 @@
-# spring-primary-bean-impl
-Spring example of defining specific implementation of autowired service at runtime
-
 # Overview
 Sometimes it is necessary to have multiple implementations of the same interface and define which specification is implemented at runtime.  This project demonstrates this functionality by using system environment variables to define which bean definition is the primary bean.
 
