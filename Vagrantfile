@@ -15,7 +15,10 @@ Vagrant.configure("2") do |config|
 	  		cp -r /data /opt/application
 	  		cd /opt/application/data
 	  		./mvnw package
-	  		java -DPILLSERVICE=RedPillServiceImpl -jar target/autowire-specified-bean-0.0.1-SNAPSHOT.jar
+	  		cp /opt/application/data/resources/spring-example.service /etc/systemd/system/spring-example.service
+	  		systemctl enable spring-example.service
+	  		systemctl daemon-reload
+	  		systemctl restart spring-example.service
   		SHELL
 	end
 end
