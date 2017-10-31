@@ -26,3 +26,6 @@ All examples listed below will override the default implementation and use the `
 ### Run Container
 1) Run `docker run -d -e PILL_SERVICE=RedPillServiceImpl -p 127.0.0.1:8888:8080 mkez00/spring-primary-bean-impl`
 2) Go to `http://localhost:8888`
+
+### Docker Hub
+1) Docker image available on Docker Hub: <a href="https://hub.docker.com/r/mkez00/spring-primary-bean-impl/">mkez00/spring-primary-bean-impl</a>
