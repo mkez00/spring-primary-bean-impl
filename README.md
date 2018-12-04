@@ -1,7 +1,7 @@
-[![DepShield Badge](https://depshield.sonatype.org/badges/mkez00/spring-primary-bean-impl/depshield.svg)](https://depshield.github.io)
-
 # Overview
 Sometimes it is necessary to have multiple implementations of the same interface and define which specific implementation is used at runtime.  This project demonstrates this functionality by using environment variables to define which bean definition is the primary bean.
+
+[![DepShield Badge](https://depshield.sonatype.org/badges/mkez00/spring-primary-bean-impl/depshield.svg)](https://depshield.github.io)
 
 # Desciption
 This application has a `PillService` which returns a simple `Pill` model.  This model can be accessed at the base URL of the deployed application using a HTTP GET (`http://localhost:8080`).  The default implementation is the `BluePillServiceImpl`.  To override, set environment variable `pillService` to: `RedPillServiceImpl` or `BluePillServiceImpl`.
