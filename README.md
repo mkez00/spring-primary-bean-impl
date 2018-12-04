@@ -1,3 +1,5 @@
+[![DepShield Badge](https://depshield.sonatype.org/badges/mkez00/spring-primary-bean-impl/depshield.svg)](https://depshield.github.io)
+
 # Overview
 Sometimes it is necessary to have multiple implementations of the same interface and define which specific implementation is used at runtime.  This project demonstrates this functionality by using environment variables to define which bean definition is the primary bean.
 
